@@ -1,0 +1,107 @@
+body {
+	background-color:E4E7EC;
+	color: 0D1321;
+	font-family:markazi text ;
+	font-size: 26px;
+}
+h1 {
+	color: 748CAB;
+	font-family:oswald ;
+	font-weight: bold ;
+	letter-spacing: ;
+	font-size: 50px;
+
+}
+h2 {
+	color: A7BBEC;
+	font-family:oswald ;
+	font-weight: ;
+	letter-spacing: ;
+	font-size: 25px;
+}
+a {
+	text-decoration: none;
+	color: ;
+}
+a:hover {
+	color: black;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px){
+
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.perfect-circle{ 
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #74C0FC;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+.btn-blue:hover {
+	background-color: 1D2D44;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #74C0FC;
+	margin-top: 15px;
+}
+
+.list-inline i:hover{
+	color: mediumpurple;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
